@@ -5,18 +5,18 @@ This Project covers how to use Spring Boot with Spring Kafka to Consume JSON/Str
 
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
-Start Kafka Server
+<h2>Start Kafka Server</h2>
 
 bin/kafka-server-start.sh config/server.properties
 
-Create Kafka Topic
+<h2>Create Kafka Topic</h2>
 
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example
 
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example_json
 
 
-Publish to the Kafka Topic via Console
+<h2>Publish to the Kafka Topic via Console</h2>
 
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Kafka_Example
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Kafka_Example_json
