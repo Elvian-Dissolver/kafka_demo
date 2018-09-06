@@ -12,6 +12,7 @@ bin/kafka-server-start.sh config/server.properties
 Create Kafka Topic
 
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example
+
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example_json
 
 Publish to the Kafka Topic via Console
