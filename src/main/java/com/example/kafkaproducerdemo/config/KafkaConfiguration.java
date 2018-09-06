@@ -1,8 +1,7 @@
 package com.example.kafkaproducerdemo.config;
 
 import com.example.kafkaproducerdemo.model.User;
-import com.fasterxml.jackson.databind.JsonSerializer;
-//import jdk.nashorn.internal.runtime.linker.Bootstrap;
+import org.springframework.kafka.support.serializer.JsonSerializer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
