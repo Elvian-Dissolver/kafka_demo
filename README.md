@@ -1,7 +1,7 @@
 # kafka_producer_demo
 This Project covers how to use Spring Boot with Spring Kafka to Consume JSON/String message from Kafka topics
 
-<b>Start Zookeeper</b>
+<h2>Start Zookeeper</h2>
 
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
