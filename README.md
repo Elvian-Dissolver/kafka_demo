@@ -1,1 +1,1 @@
-# kafka_demo
+# kafka_producer_demo
